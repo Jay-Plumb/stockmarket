@@ -1,0 +1,20 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+
+  &-heading {
+    padding-top: 40px;
+    margin: 20px;
+  }
+
+  &-introduction {
+    background: $brand;
+    min-height: 200px;
+  }
+
+  &-description {
+    padding-bottom: 80px;
+    margin: 20px;
+  }
+
+}
